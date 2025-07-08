@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lançador de Dados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 Lançador de Dados</h1>
+
+    <label for="quantidade">Quantidade de dados:</label>
+    <select id="quantidade">
+      <option value="1">1 dado</option>
+      <option value="2">2 dados</option>
+      <option value="3">3 dados</option>
+      <option value="4">4 dados</option>
+      <option value="5">5 dados</option>
+      <option value="6">6 dados</option>
+    </select>
+
+    <label for="modo">Modo de lançamento:</label>
+    <select id="modo">
+      <option value="simultaneo">Simultâneo</option>
+      <option value="individual">Individual</option>
+    </select>
+
+    <button id="lancarBtn">Lançar dados</button>
+
+    <div id="resultado" class="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
